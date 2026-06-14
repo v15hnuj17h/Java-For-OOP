@@ -33,11 +33,11 @@ public class Main {
             System.out.println("\t╔═════════════════════════════════════╗");
             System.out.printf ("\t║     STUDENT MANAGEMENT SYSTEM (%2d)  ║%n",StudentManager.getTotalStudents());
             System.out.println("\t╠═════════════════════════════════════╣");
-            System.out.println("\t║  1. ➤ Add Student                   ║");
-            System.out.println("\t║  2. ➤ Display All Students          ║");
-            System.out.println("\t║  3. ➤ Search Student                ║");
-            System.out.println("\t║  4. ➤ Class Statistics              ║");
-            System.out.println("\t║  5. ➤ Exit                          ║");       
+            System.out.println("\t║  1. Add Student                     ║");
+            System.out.println("\t║  2. Display All Students            ║");
+            System.out.println("\t║  3. Search Student                  ║");
+            System.out.println("\t║  4. Class Statistics                ║");
+            System.out.println("\t║  5. Exit                            ║");       
             System.out.println("\t╚═════════════════════════════════════╝");
             System.out.print("\n➤ Enter your choice: ");
 

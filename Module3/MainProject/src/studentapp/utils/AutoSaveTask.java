@@ -34,7 +34,7 @@ public class AutoSaveTask implements Runnable {
                     System.out.println("\n [AutoSave] " + StudentManager.getTotalStudents() + " student record(s) backed up.\n");
                 }
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
+                Thread.currentThread().interrupt(); 
                 break;
             }
         }
