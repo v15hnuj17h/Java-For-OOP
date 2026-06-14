@@ -1,4 +1,6 @@
 // A console-based Student Record Management System that lets you add, display, search, and analyze student records 
+// use "chcp 65001" in cmd to enable UTF-8 encoding for better display of special characters.
+
 
 import java.util.Scanner;
 
@@ -207,7 +209,7 @@ public class StudentRecordManagementSystem {
 
             System.out.println();
             System.out.println("\t╔═════════════════════════════════════╗");
-            System.out.printf ("\t║     STUDENT MANAGEMENT SYSTEM (%d)   ║%n",StudentManager.getTotalStudents());
+            System.out.printf ("\t║     STUDENT MANAGEMENT SYSTEM (%2d)  ║%n",StudentManager.getTotalStudents());
             System.out.println("\t╠═════════════════════════════════════╣");
             System.out.println("\t║  1. ➤ Add Student                   ║");
             System.out.println("\t║  2. ➤ Display All Students          ║");
